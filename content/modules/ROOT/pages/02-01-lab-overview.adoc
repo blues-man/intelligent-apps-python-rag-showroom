@@ -138,7 +138,7 @@ The key cells perform the following actions:
 [source,python,subs=attributes+]
 ----
 # LLM Inference Server URL
-inference_server_url = "https://litellm-prod.apps.maas.redhatworkshops.io" <1>
+inference_server_url = "https://maas-rhdp.apps.maas.redhatworkshops.io" <1>
 
 # LLM definition using a client that speaks the OpenAI API format
 llm = VLLMOpenAI(
